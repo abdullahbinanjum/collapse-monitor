@@ -12,7 +12,7 @@ requests==2.32.0
 httpx==0.26.0
 
 # Data processing
-numpy==1.26.4 --only-binary=:all:
+numpy==2.3.2 --only-binary=:all:
 pandas==2.1.1 --only-binary=:all:
 
 # Date utilities
