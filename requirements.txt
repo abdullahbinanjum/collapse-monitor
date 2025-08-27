@@ -1,29 +1,11 @@
-# Core packaging
-pip>=23.2.1
-setuptools>=80.0.0
-wheel>=0.45.1
-
-# Web framework
+pandas==2.3.2
+numpy==2.3.2
 fastapi==0.114.0
-uvicorn[standard]==0.23.2
-
-# HTTP requests
+uvicorn==0.23.2
 requests==2.32.0
 httpx==0.26.0
-
-# Data processing
-numpy==2.3.2 --only-binary=:all:
-pandas==2.1.1 --only-binary=:all:
-
-# Date utilities
 python-dateutil==2.8.2
-
-# Sentiment analysis
 textblob==0.17.1
 nltk==3.8.1
-
-# Database (optional)
 psycopg2-binary==2.9.9
-
-# Environment variables
 python-dotenv==1.0.0
