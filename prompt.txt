@@ -1,0 +1,13 @@
+# prompt.txt
+Based on the following daily data, generate a single Stability Risk Score from 0 to 100, where 0 is no risk and 100 is high risk. Also, identify the top 5 factors driving this score. The data is:
+
+Economic Data: {economic_data}
+Social Data: {social_data}
+Environmental Data: {environmental_data}
+Financial Market Data: {financial_data}
+News Sentiment Data: {news_sentiment_data}
+
+Format your response as a JSON object with the following keys:
+- risk_score (integer)
+- top_drivers (list of strings)
+- narrative_summary (short summary, less than 250 words)

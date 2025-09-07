@@ -1,0 +1,13 @@
+```json
+{
+  "risk_score": 78,
+  "top_drivers": [
+    "Climate Change Impacts",
+    "Social Unrest and Disinformation",
+    "Economic Uncertainty",
+    "Environmental Degradation",
+    "Political Instability"
+  ],
+  "narrative_summary": "Global instability signals are high, driven by widespread climate anxieties reflected in social media (e.g., numerous posts on collapse and extinction, high scores and comments), coupled with economic uncertainty (negative news sentiment, high Nasdaq volatility).  Severe weather events and environmental degradation are exacerbating these concerns, while political instability adds further risk, as evidenced by news of potential autocracy.  The combination of these factors elevates the overall risk score significantly."
+}
+```

@@ -1,0 +1,16 @@
+[
+  { "name": "finance", "type": "api", "url": "https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=SPY&apikey=YOUR_API_KEY", "parser": "parse_finance" },
+
+  { "name": "news_bbc", "type": "rss", "url": "http://feeds.bbci.co.uk/news/world/rss.xml", "parser": "parse_bbc" },
+  { "name": "news_cnn", "type": "rss", "url": "http://rss.cnn.com/rss/edition.rss", "parser": "parse_cnn" },
+  { "name": "news_reuters", "type": "rss", "url": "http://feeds.reuters.com/Reuters/worldNews", "parser": "parse_reuters" },
+
+  { "name": "social_x", "type": "api", "url": "X_API_PLACEHOLDER", "parser": "fetch_x_tweets" },
+  { "name": "social_reddit", "type": "api", "url": "https://api.pushshift.io/reddit/search/submission/?subreddit=worldnews,environment,economy,collapse", "parser": "parse_reddit" },
+
+  { "name": "environment_usgs", "type": "api", "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson", "parser": "parse_usgs" },
+  { "name": "environment_noaa", "type": "rss", "url": "https://www.weather.gov/rss/alerts.xml", "parser": "parse_noaa" },
+
+  { "name": "wildcard_google_trends", "type": "api", "url": "https://trends.google.com/trends/api/explore?hl=en-US&tz=0&req={\"comparisonItem\":[{\"keyword\":\"collapse\",\"geo\":\"\",\"time\":\"now 1-d\"}]}", "parser": "parse_google_trends" },
+  { "name": "wildcard_climate", "type": "api", "url": "https://cds.climate.copernicus.eu/api/v2", "parser": "parse_climate" }
+]
